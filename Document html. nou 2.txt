@@ -1,0 +1,55 @@
+# Site cu Clătite
+
+Acesta este un proiect pentru un site web dedicat clătitelor. Aici vei găsi rețete, imagini delicioase și sfaturi pentru prepararea celor mai bune clătite.
+
+## Instalare și Configurare
+
+Pentru a clona acest repository și a-l rula local, urmează pașii de mai jos:
+
+### 1. Clonarea repository-ului
+```bash
+git clone https://github.com/utilizator/site-clatite.git
+cd site-clatite
+```
+
+### 2. Crearea și activarea unui mediu virtual (daca este necesar)
+```bash
+python -m venv venv
+source venv/bin/activate  # Pe macOS/Linux
+venv\Scripts\activate  # Pe Windows
+```
+
+### 3. Instalarea dependențelor
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Pornirea serverului local
+```bash
+python manage.py runserver  # Dacă este un proiect Django
+npm start  # Dacă este un proiect Node.js
+```
+
+## Contribuții
+
+Dacă dorești să contribui la acest proiect:
+1. Fork-uiește repository-ul.
+2. Creează o nouă ramură pentru modificările tale:
+   ```bash
+   git checkout -b nume-feature
+   ```
+3. Fă modificările și comite-le:
+   ```bash
+   git add .
+   git commit -m "Adaugă o nouă funcționalitate"
+   ```
+4. Publică ramura pe GitHub:
+   ```bash
+   git push origin nume-feature
+   ```
+5. Creează un Pull Request pe GitHub.
+
+## Licență
+
+Acest proiect este licențiat sub [MIT License](LICENSE).
+
