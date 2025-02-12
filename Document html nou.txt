@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANCAKE PARADISE AB</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #fff5e1;
+        }
+        header {
+            background-color: #ffcc66;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #804000;
+        }
+        section {
+            padding: 50px;
+        }
+        footer {
+            background-color: #ffcc66;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        button {
+            background-color: #ff9933;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            color: white;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #cc6600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PANCAKE PARADISE AB</h1>
+        <nav>
+            <ul>
+                <li><a href="#despre">Despre Noi</a></li>
+                <li><a href="#meniu">Meniu</a></li>
+                <li><a href="#comanda">Comandă Online</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="despre">
+        <h2>Despre Noi</h2>
+        <p>Bine ați venit la Pancake Paradise AB! Aici găsiți cele mai delicioase clătite preparate cu ingrediente de calitate.</p>
+    </section>
+    
+    <section id="meniu">
+        <h2>Meniul Nostru</h2>
+        <p>Adaugă aici meniul tău personalizat.</p>
+    </section>
+    
+    <section id="comanda">
+        <h2>Comandă Online</h2>
+        <button id="comandaAcum">Comandă Acum</button>
+    </section>
+    
+    <section id="galerie">
+        <h2>Galerie Foto</h2>
+        <p>Adaugă aici imagini delicioase cu clătitele tale.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Ne poți găsi pe rețelele sociale:</p>
+        <ul id="social-media">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">TikTok</a></li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 PANCAKE PARADISE AB. Toate drepturile rezervate.</p>
+    </footer>
+    
+    <script>
+        document.getElementById("comandaAcum").addEventListener("click", function() {
+            alert("Funcționalitate de comandă online în curând!");
+        });
+    </script>
+</body>
+</html>
